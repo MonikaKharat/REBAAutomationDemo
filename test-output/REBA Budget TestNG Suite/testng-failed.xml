@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [REBA Budget TestNG Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name=" User Groups Page Test(failed)">
+    <classes>
+      <class name="com.qa.REBABudget.tests.UserGroupsPageTest">
+        <methods>
+          <include name="goToRolesPageTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="createUserGroupsTest"/>
+          <include name="navigateToUsergsGroupPage"/>
+          <include name="deleteUserGroupTest"/>
+          <include name="createUserGroupsWindowHeaderTest"/>
+          <include name="userGroupsPageHeaderTest"/>
+        </methods>
+      </class> <!-- com.qa.REBABudget.tests.UserGroupsPageTest -->
+    </classes>
+  </test> <!--  User Groups Page Test(failed) -->
+  <test thread-count="5" name=" Roles Page Test(failed)">
+    <classes>
+      <class name="com.qa.REBABudget.tests.RolePageTest">
+        <methods>
+          <include name="addNewRoleTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="rolesPageHeaderTest"/>
+          <include name="navigateToRolesPage"/>
+          <include name="createRoleWindowHeaderTest"/>
+        </methods>
+      </class> <!-- com.qa.REBABudget.tests.RolePageTest -->
+    </classes>
+  </test> <!--  Roles Page Test(failed) -->
+</suite> <!-- Failed suite [REBA Budget TestNG Suite] -->

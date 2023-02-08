@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-02T07:49:43Z" name="Default suite" finished-at="2023-02-02T07:50:04Z" duration-ms="21453">
+    <groups>
+    </groups>
+    <test started-at="2023-02-02T07:49:43Z" name="Default test" finished-at="2023-02-02T07:50:04Z" duration-ms="21453">
+      <class name="com.qa.REBABudget.tests.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.REBABudget.tests.LoginPageTest@12359a82]" started-at="2023-02-02T07:49:43Z" name="setup" finished-at="2023-02-02T07:49:49Z" duration-ms="6468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageTitletest()[pri:1, instance:com.qa.REBABudget.tests.LoginPageTest@12359a82]" started-at="2023-02-02T07:49:49Z" name="loginPageTitletest" finished-at="2023-02-02T07:49:49Z" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitletest -->
+        <test-method signature="loginPageURLtest()[pri:2, instance:com.qa.REBABudget.tests.LoginPageTest@12359a82]" started-at="2023-02-02T07:49:49Z" name="loginPageURLtest" finished-at="2023-02-02T07:49:49Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageURLtest -->
+        <test-method signature="RememberMeLinkTest()[pri:3, instance:com.qa.REBABudget.tests.LoginPageTest@12359a82]" started-at="2023-02-02T07:49:49Z" name="RememberMeLinkTest" finished-at="2023-02-02T07:49:54Z" duration-ms="4311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RememberMeLinkTest -->
+        <test-method signature="doLoginTest()[pri:4, instance:com.qa.REBABudget.tests.LoginPageTest@12359a82]" started-at="2023-02-02T07:49:54Z" name="doLoginTest" finished-at="2023-02-02T07:50:04Z" duration-ms="10602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.REBABudget.tests.LoginPageTest@12359a82]" started-at="2023-02-02T07:50:04Z" name="tearDown" finished-at="2023-02-02T07:50:04Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.REBABudget.tests.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
