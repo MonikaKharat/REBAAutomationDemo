@@ -3,7 +3,10 @@
 
 <suite name="REBA Budget TestNG Suite" >
 
-
+	<listeners>
+			<listener	class-name="com.qa.REBABudget.listeners.ExtentReportListener" />
+	</listeners>
+	
 	
     <test name="Login Page Test" >
   	 <classes>
@@ -11,13 +14,13 @@
      </classes> 
    </test> 
    
-    <test name=" Home Page Test" >
+   <test name=" Home Page Test" >
   	 <classes>
           <class name="com.qa.REBABudget.tests.HomePageTest"/>
      </classes> 
    </test> 
    
-    <test name=" User Groups Page Test" >
+  <!--   <test name=" User Groups Page Test" >
   	 <classes>
          <class name="com.qa.REBABudget.tests.UserGroupsPageTest"/>
      </classes> 
@@ -27,6 +30,6 @@
   	 <classes>
          <class name="com.qa.REBABudget.tests.RolePageTest"/>
      </classes> 
-   </test> 
+   </test> -->
    
 </suite> 

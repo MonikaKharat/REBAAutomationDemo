@@ -69,7 +69,7 @@ public class DriverFactory {
 	}
 	
 	/**
-	 * This method is used to initialize the propertise
+	 * This method is used to initialize the properties
 	 * @return 
 	 * this will return properties prop reference
 	 */
@@ -96,6 +96,8 @@ public class DriverFactory {
 	public String getScreenshot()
 	{
 		File srcFile = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
+		
+		//Adds one folder named screen shot under 
 		String path = System.getProperty("user.dir") + "/screenshot/" + System.currentTimeMillis() + ".png";
 		File destination = new File(path);
 
